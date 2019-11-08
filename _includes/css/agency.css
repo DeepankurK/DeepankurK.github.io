@@ -56,7 +56,9 @@ h6 {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
-
+.mine{
+    text-align: center;
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -128,7 +130,9 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    margin: 5px;
 }
+
 
 .btn-xl:hover,
 .btn-xl:focus,
@@ -268,6 +272,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    border: 5px solid black;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center;
@@ -309,9 +314,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 60px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 60px;
     }
 
     header .intro-text .intro-heading {
@@ -727,6 +732,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color:#f00000;
 }
 
 footer span.copyright {
